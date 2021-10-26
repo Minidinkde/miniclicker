@@ -5849,12 +5849,12 @@ Game.Launch=function()
 			
 			if (Game.TickerN%2==0 || Game.cookiesEarned>=10100000000)
 			{
-				var animals=['newts','penguins','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes','monkfish','wolfmen','goblins','hippies'];
+				var animals=['newts','penguins','scorpions','axolotls','puffins','porpoises','blowfish','horses','crayfish','slugs','humpback whales','nurse sharks','giant squids','polar bears','fruit bats','frogs','sea squirts','velvet worms','mole rats','paramecia','nematodes','tardigrades','giraffes','monkfish','wolfmen','goblins','hippies','mickle'];
 				
 				if (Math.random()<0.75 || Game.cookiesEarned<10000)
 				{
 					if (Game.Objects['Grandma'].amount>0) list.push(choose([
-					'<q>Moist cookies.</q><sig>grandma</sig>',
+					'<q>Moist ice cream sandwiches.</q><sig>grandma</sig>',
 					'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
 					'<q>Indentured servitude.</q><sig>grandma</sig>',
 					'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
@@ -5873,7 +5873,7 @@ Game.Launch=function()
 					]));
 					
 					if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
-					'News : cookie manufacturer downsizes, sells own grandmother!',
+					'News : ice cream sandwiches manufacturer downsizes, sells own grandmother!',
 					'<q>It has betrayed us, the filthy little thing.</q><sig>grandma</sig>',
 					'<q>It tried to get rid of us, the nasty little thing.</q><sig>grandma</sig>',
 					'<q>It thought we would go away by selling us. How quaint.</q><sig>grandma</sig>',
@@ -5892,11 +5892,11 @@ Game.Launch=function()
 					]));
 					
 					if (Game.Objects['Farm'].amount>0) list.push(choose([
-					'News : cookie farms suspected of employing undeclared elderly workforce!',
-					'News : cookie farms release harmful chocolate in our rivers, says scientist!',
-					'News : genetically-modified chocolate controversy strikes cookie farmers!',
-					'News : free-range farm cookies popular with today\'s hip youth, says specialist.',
-					'News : farm cookies deemed unfit for vegans, says nutritionist.'
+					'News : ice cream sandwich farms suspected of employing undeclared elderly workforce!',
+					'News : ice cream sandwich farms release harmful chocolate in our rivers, says scientist!',
+					'News : genetically-modified ice cream controversy strikes ice cream sandwich farmers!',
+					'News : free-range farm ice cream sandwiches popular with today\'s hip youth, says specialist.',
+					'News : farm ice cream sandwiches deemed unfit for vegans, says nutritionist.'
 					]));
 					
 					if (Game.Objects['Mine'].amount>0) list.push(choose([
@@ -5908,82 +5908,82 @@ Game.Launch=function()
 					]));
 					
 					if (Game.Objects['Factory'].amount>0) list.push(choose([
-					'News : cookie factories linked to global warming!',
-					'News : cookie factories involved in chocolate weather controversy!',
-					'News : cookie factories on strike, robotic minions employed to replace workforce!',
-					'News : cookie factories on strike - workers demand to stop being paid in cookies!',
-					'News : factory-made cookies linked to obesity, says study.'
+					'News : ice cream sandwich factories linked to global warming!',
+					'News : ice cream sandwich factories involved in chocolate weather controversy!',
+					'News : ice cream sandwich factories on strike, robotic minions employed to replace workforce!',
+					'News : ice cream sandwich factories on strike - workers demand to stop being paid in ice cream sandwiches!',
+					'News : factory-made ice cream sandwiches linked to obesity, says study.'
 					]));
 					
 					if (Game.Objects['Bank'].amount>0) list.push(choose([
-					'News : cookie loans on the rise as people can no longer afford them with regular money.',
-					'News : cookies slowly creeping up their way as a competitor to traditional currency!',
-					'News : most bakeries now fitted with ATMs to allow for easy cookie withdrawals and deposits.',
-					'News : cookie economy now strong enough to allow for massive vaults doubling as swimming pools!',
-					'News : "Tomorrow\'s wealthiest people will be calculated by their worth in cookies", predict specialists.'
+					'News : ice cream sandwich loans on the rise as people can no longer afford them with regular money.',
+					'News : ice cream sandwiches slowly creeping up their way as a competitor to traditional currency!',
+					'News : most bakeries now fitted with ATMs to allow for easy ice cream sandwich withdrawals and deposits.',
+					'News : ice cream sandwich economy now strong enough to allow for massive vaults doubling as swimming pools!',
+					'News : "Tomorrow\'s wealthiest people will be calculated by their worth in ice cream sandwiches", predict specialists.'
 					]));
 					
 					if (Game.Objects['Temple'].amount>0) list.push(choose([
 					'News : explorers bring back ancient artifact from abandoned temple; archeologists marvel at the centuries-old '+choose(['magic','carved','engraved','sculpted','royal','imperial','mummified','ritual','golden','silver','stone','cursed','plastic','bone','blood','holy','sacred','sacrificial','electronic','singing','tapdancing'])+' '+choose(['spoon','fork','pizza','washing machine','calculator','hat','piano','napkin','skeleton','gown','dagger','sword','shield','skull','emerald','bathtub','mask','rollerskates','litterbox','bait box','cube','sphere','fungus'])+'!',
-					'News : recently-discovered chocolate temples now sparking new cookie-related cult; thousands pray to Baker in the sky!',
-					'News : just how extensive is the cookie pantheon? Theologians speculate about possible '+choose(['god','goddess'])+' of '+choose([choose(animals),choose(['kazoos','web design','web browsers','kittens','atheism','handbrakes','hats','aglets','elevator music','idle games','the letter "P"','memes','hamburgers','bad puns','kerning','stand-up comedy','failed burglary attempts','clickbait','one weird tricks'])])+'.',
-					'News : theists of the world discover new cookie religion - "Oh boy, guess we were wrong all along!"',
-					'News : cookie heaven allegedly "sports elevator instead of stairway"; cookie hell "paved with flagstone, as good intentions make for poor building material".'
+					'News : recently-discovered ice cream temples now sparking new ice cream sandwich-related cult; thousands pray to Baker in the sky!',
+					'News : just how extensive is the ice cream sandwich pantheon? Theologians speculate about possible '+choose(['god','goddess'])+' of '+choose([choose(animals),choose(['kazoos','web design','web browsers','kittens','atheism','handbrakes','hats','aglets','elevator music','idle games','the letter "P"','memes','hamburgers','bad puns','kerning','stand-up comedy','failed burglary attempts','clickbait','one weird tricks'])])+'.',
+					'News : theists of the world discover new ice cream sandwich religion - "Oh boy, guess we were wrong all along!"',
+					'News : ice cream sandwich heaven allegedly "sports elevator instead of stairway"; ice cream sandwich hell "paved with flagstone, as good intentions make for poor building material".'
 					]));
 					
 					if (Game.Objects['Wizard tower'].amount>0) list.push(choose([
 					'News : all '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' turned into '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' in freak magic catastrophe!',
 					'News : heavy dissent rages between the schools of '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic and '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic!',
 					'News : get your new charms and curses at the yearly National Spellcrafting Fair! Exclusive prices on runes and spellbooks.',
-					'News : cookie wizards deny involvement in shockingly ugly newborn - infant is "honestly grody-looking, but natural", say doctors.',
+					'News : ice cream sandwich wizards deny involvement in shockingly ugly newborn - infant is "honestly grody-looking, but natural", say doctors.',
 					'News : "Any sufficiently crude magic is indistinguishable from technology", claims renowned technowizard.'
 					]));
 					
 					if (Game.Objects['Shipment'].amount>0) list.push(choose([
-					'News : new chocolate planet found, becomes target of cookie-trading spaceships!',
+					'News : new ice cream planet found, becomes target of ice cream sandwiches-trading spaceships!',
 					'News : massive chocolate planet found with 99.8% certified pure dark chocolate core!',
 					'News : space tourism booming as distant planets attract more bored millionaires!',
-					'News : chocolate-based organisms found on distant planet!',
+					'News : ice-cream-based organisms found on distant planet!',
 					'News : ancient baking artifacts found on distant planet; "terrifying implications", experts say.'
 					]));
 					
 					if (Game.Objects['Alchemy lab'].amount>0) list.push(choose([
-					'News : national gold reserves dwindle as more and more of the precious mineral is turned to cookies!',
-					'News : chocolate jewelry found fashionable, gold and diamonds "just a fad", says specialist.',
+					'News : national gold reserves dwindle as more and more of the precious mineral is turned to ice cream sandwiches!',
+					'News : chocolate and ice cream jewelry found fashionable, gold and diamonds "just a fad", says specialist.',
 					'News : silver found to also be transmutable into white chocolate!',
-					'News : defective alchemy lab shut down, found to convert cookies to useless gold.',
-					'News : alchemy-made cookies shunned by purists!'
+					'News : defective alchemy lab shut down, found to convert ice cream sandwiches to useless gold.',
+					'News : alchemy-made ice cream sandwiches shunned by purists!'
 					]));
 					
 					if (Game.Objects['Portal'].amount>0) list.push(choose([
 					'News : nation worried as more and more unsettling creatures emerge from dimensional portals!',
 					'News : dimensional portals involved in city-engulfing disaster!',
-					'News : tourism to cookieverse popular with bored teenagers! Casualty rate as high as 73%!',
-					'News : cookieverse portals suspected to cause fast aging and obsession with baking, says study.',
+					'News : tourism to ice-cream-sandwich-verse popular with bored teenagers! Casualty rate as high as 73%!',
+					'News : ice-cream-sandwich-verse portals suspected to cause fast aging and obsession with baking, says study.',
 					'News : "do not settle near portals," says specialist; "your children will become strange and corrupted inside."'
 					]));
 					
 					if (Game.Objects['Time machine'].amount>0) list.push(choose([
 					'News : time machines involved in history-rewriting scandal! Or are they?',
 					'News : time machines used in unlawful time tourism!',
-					'News : cookies brought back from the past "unfit for human consumption", says historian.',
+					'News : ice cream sandwiches brought back from the past "unfit for human consumption", says historian.',
 					'News : various historical figures inexplicably replaced with talking lumps of dough!',
 					'News : "I have seen the future," says time machine operator, "and I do not wish to go there again."'
 					]));
 					
 					if (Game.Objects['Antimatter condenser'].amount>0) list.push(choose([
 					'News : whole town seemingly swallowed by antimatter-induced black hole; more reliable sources affirm town "never really existed"!',
-					'News : "explain to me again why we need particle accelerators to bake cookies?" asks misguided local woman.',
+					'News : "explain to me again why we need particle accelerators to make ice cream sandwiches?" asks misguided local woman.',
 					'News : first antimatter condenser successfully turned on, doesn\'t rip apart reality!',
-					'News : researchers conclude that what the cookie industry needs, first and foremost, is "more magnets".',
-					'News : "unravelling the fabric of reality just makes these cookies so much tastier", claims scientist.'
+					'News : researchers conclude that what the ice cream sandwich industry needs, first and foremost, is "more magnets".',
+					'News : "unravelling the fabric of reality just makes these ice cream sandwiches so much tastier", claims scientist.'
 					]));
 					
 					if (Game.Objects['Prism'].amount>0) list.push(choose([
-					'News : new cookie-producing prisms linked to outbreak of rainbow-related viral videos.',
+					'News : new ice cream sandwich-producing prisms linked to outbreak of rainbow-related viral videos.',
 					'News : scientists warn against systematically turning light into matter - "One day, we\'ll end up with all matter and no light!"',
-					'News : cookies now being baked at the literal speed of light thanks to new prismatic contraptions.',
-					'News : "Can\'t you sense the prism watching us?", rambles insane local man. "No idea what he\'s talking about", shrugs cookie magnate/government official.',
+					'News : ice cream sandwiches now being baked at the literal speed of light thanks to new prismatic contraptions.',
+					'News : "Can\'t you sense the prism watching us?", rambles insane local man. "No idea what he\'s talking about", shrugs ice cream sandwich magnate/government official.',
 					'News : world citizens advised "not to worry" about frequent atmospheric flashes.',
 					]));
 					
@@ -5996,11 +5996,11 @@ Game.Launch=function()
 					]));
 					
 					if (Game.Objects['Fractal engine'].amount>0) list.push(choose([
-					'News : local man "done with Cookie Clicker", finds the constant self-references "grating and on-the-nose".',
+					'News : local man "done with MiniClicker", finds the constant self-references "grating and on-the-nose".',
 					'News : local man sails around the world to find himself - right where he left it.',
 					'News : local guru claims "there\'s a little bit of ourselves in everyone", under investigation for alleged cannibalism.',
 					'News : news writer finds herself daydreaming about new career. Or at least a raise.',
-					'News : polls find idea of cookies made of cookies "acceptable" - "at least we finally know what\'s in them", says interviewed citizen.',
+					'News : polls find idea of ice cream sandwiches made of ice cream sandwiches "acceptable" - "at least we finally know what\'s in them", says interviewed citizen.',
 					]));
 					
 					if (Game.Objects['Javascript console'].amount>0) list.push(choose([
@@ -6009,19 +6009,20 @@ Game.Launch=function()
 					'News : developers unsure what to call their new javascript libraries as all combinations of any 3 dictionary words have already been taken.',
 					'News : nation holds breath as nested ifs about to hatch.',
 					'News : clueless copywriter forgets to escape a quote, ends news line prematurely; last words reported to be "Huh, why isn',
+					'News : mini sucks at coding haha',
 					]));
 					
 					if (Game.season=='halloween' && Game.cookiesEarned>=1000) list.push(choose([
-					'News : strange twisting creatures amass around cookie factories, nibble at assembly lines.',
-					'News : ominous wrinkly monsters take massive bites out of cookie production; "this can\'t be hygienic", worries worker.',
+					'News : strange twisting creatures amass around ice cream sandwich factories, nibble at assembly lines.',
+					'News : ominous wrinkly monsters take massive bites out of ice cream sandwich production; "this can\'t be hygienic", worries worker.',
 					'News : pagan rituals on the rise as children around the world dress up in strange costumes and blackmail homeowners for candy.',
 					'News : new-age terrorism strikes suburbs as houses find themselves covered in eggs and toilet paper.',
-					'News : children around the world "lost and confused" as any and all Halloween treats have been replaced by cookies.'
+					'News : children around the world "lost and confused" as any and all Halloween treats have been replaced by ice cream sandwiches.'
 					]));
 					
 					if (Game.season=='christmas' && Game.cookiesEarned>=1000) list.push(choose([
 					'News : bearded maniac spotted speeding on flying sleigh! Investigation pending.',
-					'News : Santa Claus announces new brand of breakfast treats to compete with cookie-flavored cereals! "They\'re ho-ho-horrible!" says Santa.',
+					'News : Santa Claus announces new brand of breakfast treats to compete with ice cream sandwich-flavored cereals! "They\'re ho-ho-horrible!" says Santa.',
 					'News : "You mean he just gives stuff away for free?!", concerned moms ask. "Personally, I don\'t trust his beard."',
 					'News : obese jolly lunatic still on the loose, warn officials. "Keep your kids safe and board up your chimneys. We mean it."',
 					'News : children shocked as they discover Santa Claus isn\'t just their dad in a costume after all!<br>"I\'m reassessing my life right now", confides Laura, aged 6.',
@@ -6036,10 +6037,10 @@ Game.Launch=function()
 					
 					if (Game.season=='valentines' && Game.cookiesEarned>=1000) list.push(choose([
 					'News : organ-shaped confectioneries being traded in schools all over the world; gruesome practice undergoing investigation.',
-					'News : heart-shaped candies overtaking sweets business, offering competition to cookie empire. "It\'s the economy, cupid!"',
+					'News : heart-shaped candies overtaking sweets business, offering competition to ice cream sandwich empire. "It\'s the economy, cupid!"',
 					'News : love\'s in the air, according to weather specialists. Face masks now offered in every city to stunt airborne infection.',
-					'News : marrying a cookie - deranged practice, or glimpse of the future?',
-					'News : boyfriend dumped after offering his lover cookies for Valentine\'s Day, reports say. "They were off-brand", shrugs ex-girlfriend.'
+					'News : marrying a ice cream sandwich - deranged practice, or glimpse of the future?',
+					'News : boyfriend dumped after offering his lover ice cream sandwiches for Valentine\'s Day, reports say. "They were off-brand", shrugs ex-girlfriend.'
 					]));
 					
 					if (Game.season=='easter' && Game.cookiesEarned>=1000) list.push(choose([
@@ -6053,16 +6054,16 @@ Game.Launch=function()
 				
 				if (Math.random()<0.05)
 				{
-					if (Game.HasAchiev('Base 10')) list.push('News : cookie manufacturer completely forgoes common sense, lets OCD drive building decisions!');//somehow I got flak for this one
+					if (Game.HasAchiev('Base 10')) list.push('News : ice cream sandwich manufacturer completely forgoes common sense, lets OCD drive building decisions!');//somehow I got flak for this one
 					if (Game.HasAchiev('From scratch')) list.push('News : follow the tear-jerking, riches-to-rags story about a local cookie manufacturer who decided to give it all up!');
-					if (Game.HasAchiev('A world filled with cookies')) list.push('News : known universe now jammed with cookies! No vacancies!');
-					if (Game.HasAchiev('Last Chance to See')) list.push('News : incredibly rare albino wrinkler on the brink of extinction poached by cookie-crazed pastry magnate!');
-					if (Game.Has('Serendipity')) list.push('News : local cookie manufacturer becomes luckiest being alive!');
+					if (Game.HasAchiev('A world filled with cookies')) list.push('News : known universe now jammed with ice cream sandwiches! No vacancies!');
+					if (Game.HasAchiev('Last Chance to See')) list.push('News : incredibly rare albino wrinkler on the brink of extinction poached by ice cream sandwich-crazed pastry magnate!');
+					if (Game.Has('Serendipity')) list.push('News : local ice cream sandwich manufacturer becomes luckiest being alive!');
 					if (Game.Has('Season switcher')) list.push('News : seasons are all out of whack! "We need to get some whack back into them seasons", says local resident.');
 					
-					if (Game.Has('Kitten helpers')) list.push('News : faint meowing heard around local cookie facilities; suggests new ingredient being tested.');
-					if (Game.Has('Kitten workers')) list.push('News : crowds of meowing kittens with little hard hats reported near local cookie facilities.');
-					if (Game.Has('Kitten engineers')) list.push('News : surroundings of local cookie facilities now overrun with kittens in adorable little suits. Authorities advise to stay away from the premises.');
+					if (Game.Has('Kitten helpers')) list.push('News : faint meowing heard around local ice cream sandwich facilities; suggests new ingredient being tested.');
+					if (Game.Has('Kitten workers')) list.push('News : crowds of meowing kittens with little hard hats reported near local ice cream sandwich facilities.');
+					if (Game.Has('Kitten engineers')) list.push('News : surroundings of local ice cream sandwich facilities now overrun with kittens in adorable little suits. Authorities advise to stay away from the premises.');
 					if (Game.Has('Kitten overseers')) list.push('News : locals report troupe of bossy kittens meowing adorable orders at passersby.');
 					if (Game.Has('Kitten managers')) list.push('News : local office cubicles invaded with armies of stern-looking kittens asking employees "what\'s happening, meow".');
 					if (Game.Has('Kitten accountants')) list.push('News : tiny felines show sudden and amazing proficiency with fuzzy mathematics and pawlinomials, baffling scientists and pet store owners.');
@@ -6070,7 +6071,7 @@ Game.Launch=function()
 					if (Game.Has('Kitten experts')) list.push('News : unemployment rates soaring as woefully adorable little cats nab jobs on all levels of expertise, says study.');
 					if (Game.Has('Kitten consultants')) list.push('News : "In the future, your job will most likely be done by a cat", predicts suspiciously furry futurologist.');
 					if (Game.Has('Kitten assistants to the regional manager')) list.push('News : strange kittens with peculiar opinions on martial arts spotted loitering on local beet farms!');
-					if (Game.Has('Kitten marketeers')) list.push('News : nonsensical billboards crop up all over countryside, trying to sell people the cookies they already get for free!');
+					if (Game.Has('Kitten marketeers')) list.push('News : nonsensical billboards crop up all over countryside, trying to sell people the ice cream sandwiches they already get for free!');
 					if (Game.Has('Kitten analysts')) list.push('News : are your spending habits sensible? For a hefty fee, these analysts will tell you!');
 					if (Game.Has('Kitten executives')) list.push('News : kittens strutting around in hot little business suits shouting cut-throat orders at their assistants, possibly the cutest thing this reporter has ever seen!');
 					if (Game.Has('Kitten angels')) list.push('News : "Try to ignore any ghostly felines that may be purring inside your ears," warn scientists. "They\'ll just lure you into making poor life choices."');
@@ -6101,96 +6102,96 @@ Game.Launch=function()
 				
 				if (Game.cookiesEarned>=10000) list.push(
 				'News : '+choose([
-					'cookies found to '+choose(['increase lifespan','sensibly increase intelligence','reverse aging','decrease hair loss','prevent arthritis','cure blindness'])+' in '+choose(animals)+'!',
-					'cookies found to make '+choose(animals)+' '+choose(['more docile','more handsome','nicer','less hungry','more pragmatic','tastier'])+'!',
-					'cookies tested on '+choose(animals)+', found to have no ill effects.',
-					'cookies unexpectedly popular among '+choose(animals)+'!',
-					'unsightly lumps found on '+choose(animals)+' near cookie facility; "they\'ve pretty much always looked like that", say biologists.',
-					'new species of '+choose(animals)+' discovered in distant country; "yup, tastes like cookies", says biologist.',
-					'cookies go well with '+choose([choose(['roasted','toasted','boiled','sauteed','minced'])+' '+choose(animals),choose(['sushi','soup','carpaccio','steak','nuggets'])+' made from '+choose(animals)])+', says controversial chef.',
-					'"do your cookies contain '+choose(animals)+'?", asks PSA warning against counterfeit cookies.',
-					'doctors recommend twice-daily consumption of fresh cookies.',
-					'doctors warn against chocolate chip-snorting teen fad.',
-					'doctors advise against new cookie-free fad diet.',
-					'doctors warn mothers about the dangers of "home-made cookies".'
+					'ice cream sandwiches found to '+choose(['increase lifespan','sensibly increase intelligence','reverse aging','decrease hair loss','prevent arthritis','cure blindness'])+' in '+choose(animals)+'!',
+					'ice cream sandwiches found to make '+choose(animals)+' '+choose(['more docile','more handsome','nicer','less hungry','more pragmatic','tastier'])+'!',
+					'ice cream sandwiches tested on '+choose(animals)+', found to have no ill effects.',
+					'ice cream sandwiches unexpectedly popular among '+choose(animals)+'!',
+					'unsightly lumps found on '+choose(animals)+' near ice cream sandwiches facility; "they\'ve pretty much always looked like that", say biologists.',
+					'new species of '+choose(animals)+' discovered in distant country; "yup, tastes like ice cream sandwiches", says biologist.',
+					'ice cream sandwiches go well with '+choose([choose(['roasted','toasted','boiled','sauteed','minced'])+' '+choose(animals),choose(['sushi','soup','carpaccio','steak','nuggets'])+' made from '+choose(animals)])+', says controversial chef.',
+					'"do your ice cream sandwiches contain '+choose(animals)+'?", asks PSA warning against counterfeit ice cream sandwiches.',
+					'doctors recommend twice-daily consumption of fresh ice cream sandwiches.',
+					'doctors warn against ice cream and chocolate wafer-snorting teen fad.',
+					'doctors advise against new ice cream sandwich-free fad diet.',
+					'doctors warn mothers about the dangers of "home-made ice cream sandwiches".'
 					]),
 				'News : "'+choose([
-					'I\'m all about cookies',
-					'I just can\'t stop eating cookies. I think I seriously need help',
-					'I guess I have a cookie problem',
-					'I\'m not addicted to cookies. That\'s just speculation by fans with too much free time',
-					'my upcoming album contains 3 songs about cookies',
-					'I\'ve had dreams about cookies 3 nights in a row now. I\'m a bit worried honestly',
-					'accusations of cookie abuse are only vile slander',
-					'cookies really helped me when I was feeling low',
-					'cookies are the secret behind my perfect skin',
-					'cookies helped me stay sane while filming my upcoming movie',
-					'cookies helped me stay thin and healthy',
-					'I\'ll say one word, just one : cookies',
-					'alright, I\'ll say it - I\'ve never eaten a single cookie in my life'
+					'I\'m all about ice cream sandwiches',
+					'I just can\'t stop eating ice cream sandwiches. I think I seriously need help',
+					'I guess I have a ice cream sandwich problem',
+					'I\'m not addicted to ice cream sandwiches. That\'s just speculation by fans with too much free time',
+					'my upcoming album contains 3 songs about ice cream sandwiches',
+					'I\'ve had dreams about ice cream sandwiches 3 nights in a row now. I\'m a bit worried honestly',
+					'accusations of ice cream sandwich abuse are only vile slander',
+					'ice cream sandwiches really helped me when I was feeling low',
+					'ice cream sandwiches are the secret behind my perfect skin',
+					'ice cream sandwiches helped me stay sane while filming my upcoming movie',
+					'ice cream sandwiches helped me stay thin and healthy',
+					'I\'ll say three words, just three : ice cream sandwiches',
+					'alright, I\'ll say it - I\'ve never eaten a single ice cream sandwich in my life'
 					])+'", reveals celebrity.',
 				choose([
-					'News : scientist predicts imminent cookie-related "end of the world"; becomes joke among peers.',
-					'News : man robs bank, buys cookies.',
-					'News : scientists establish that the deal with airline food is, in fact, a critical lack of cookies.',
-					'News : hundreds of tons of cookies dumped into starving country from airplanes; thousands dead, nation grateful.',
-					'News : new study suggests cookies neither speed up nor slow down aging, but instead "take you in a different direction".',
-					'News : overgrown cookies found in fishing nets, raise questions about hormone baking.',
-					'News : "all-you-can-eat" cookie restaurant opens in big city; waiters trampled in minutes.',
-					'News : man dies in cookie-eating contest; "a less-than-impressive performance", says judge.',
-					'News : what makes cookies taste so right? "Probably all the [*****] they put in them", says anonymous tipper.',
-					'News : man found allergic to cookies; "what a weirdo", says family.',
-					'News : foreign politician involved in cookie-smuggling scandal.',
-					'News : cookies now more popular than '+choose(['cough drops','broccoli','smoked herring','cheese','video games','stable jobs','relationships','time travel','cat videos','tango','fashion','television','nuclear warfare','whatever it is we ate before','politics','oxygen','lamps'])+', says study.',
-					'News : obesity epidemic strikes nation; experts blame '+choose(['twerking','that darn rap music','video-games','lack of cookies','mysterious ghostly entities','aliens','parents','schools','comic-books','cookie-snorting fad'])+'.',
-					'News : cookie shortage strikes town, people forced to eat cupcakes; "just not the same", concedes mayor.',
-					'News : "you gotta admit, all this cookie stuff is a bit ominous", says confused idiot.',
+					'News : scientist predicts imminent ice cream sandwich-related "end of the world"; becomes joke among peers.',
+					'News : man robs bank, buys ice cream sandwiches.',
+					'News : scientists establish that the deal with airline food is, in fact, a critical lack of ice cream sandwiches.',
+					'News : hundreds of tons of ice cream sandwiches dumped into starving country from airplanes; thousands dead, nation grateful.',
+					'News : new study suggests ice cream sandwiches neither speed up nor slow down aging, but instead "take you in a different direction".',
+					'News : overgrown ice cream sandwiches found in fishing nets, raise questions about hormone machinery.',
+					'News : "all-you-can-eat" ice cream sandwich restaurant opens in big city; waiters trampled in minutes.',
+					'News : man dies in ice cream sandwich-eating contest; "a less-than-impressive performance", says judge.',
+					'News : what makes ice cream sandwiches taste so right? "Probably all the ice cream they put in them", says anonymous tipper.',
+					'News : man found allergic to ice cream sandwiches; "what a weirdo", says family.',
+					'News : foreign politician involved in ice cream sandwich-smuggling scandal.',
+					'News : ice cream sandwiches now more popular than '+choose(['cough drops','broccoli','smoked herring','cheese','video games','stable jobs','relationships','time travel','cat videos','tango','fashion','television','nuclear warfare','whatever it is we ate before','cookies','politics','oxygen','lamps'])+', says study.',
+					'News : obesity epidemic strikes nation; experts blame '+choose(['mickle','that darn rap music','video-games','lack of ice cream sandwiches','mysterious ghostly entities','aliens','parents','schools','comic-books','the republic of China'])+'.',
+					'News : ice cream sandwiches shortage strikes town, people forced to eat cookies; "just not the same", concedes mayor.',
+					'News : "you gotta admit, all this ice cream sandwiches stuff is a bit ominous", says confused idiot.',
 				]),
 				choose([
-					'News : movie cancelled from lack of actors; "everybody\'s at home eating cookies", laments director.',
-					'News : comedian forced to cancel cookie routine due to unrelated indigestion.',
-					'News : new cookie-based religion sweeps the nation.',
-					'News : fossil records show cookie-based organisms prevalent during Cambrian explosion, scientists say.',
-					'News : mysterious illegal cookies seized; "tastes terrible", says police.',
-					'News : man found dead after ingesting cookie; investigators favor "mafia snitch" hypothesis.',
-					'News : "the universe pretty much loops on itself," suggests researcher; "it\'s cookies all the way down."',
-					'News : minor cookie-related incident turns whole town to ashes; neighboring cities asked to chip in for reconstruction.',
-					'News : is our media controlled by the cookie industry? This could very well be the case, says crackpot conspiracy theorist.',
-					'News : '+choose(['cookie-flavored popcorn pretty damn popular; "we kinda expected that", say scientists.','cookie-flavored cereals break all known cereal-related records','cookies popular among all age groups, including fetuses, says study.','cookie-flavored popcorn sales exploded during screening of Grandmothers II : The Moistening.']),
-					'News : all-cookie restaurant opening downtown. Dishes such as braised cookies, cookie thermidor, and for dessert : crepes.',
-					'News : "Ook", says interviewed orangutan.',
-					'News : cookies could be the key to '+choose(['eternal life','infinite riches','eternal youth','eternal beauty','curing baldness','world peace','solving world hunger','ending all wars world-wide','making contact with extraterrestrial life','mind-reading','better living','better eating','more interesting TV shows','faster-than-light travel','quantum baking','chocolaty goodness','gooder thoughtness'])+', say scientists.',
+					'News : movie cancelled from lack of actors; "everybody\'s at home eating ice cream sandwiches", laments director.',
+					'News : comedian forced to cancel ice cream sandwich routine due to unrelated indigestion.',
+					'News : new ice cream sandwich-based religion sweeps the nation.',
+					'News : fossil records show ice cream sandwich-based organisms prevalent during Cambrian explosion, scientists say.',
+					'News : mysterious illegal ice cream sandwiches seized; "tastes terrible", says police.',
+					'News : man found dead after ingesting ice cream sandwich; investigators favor "mafia snitch" hypothesis.',
+					'News : "the universe pretty much loops on itself," suggests researcher; "it\'s ice cream sandwiches all the way down."',
+					'News : minor ice cream sandwich-related incident turns whole town to ashes; neighboring cities asked to chip in for reconstruction.',
+					'News : is our media controlled by the ice cream sandwich industry? This could very well be the case, says crackpot conspiracy theorist.',
+					'News : '+choose(['ice cream sandwich-flavored popcorn pretty damn popular; "we kinda expected that", say scientists.','ice cream sandwich-flavored cereals break all known cereal-related records','ice cream sandwiches popular among all age groups, including fetuses, says study.','ice cream sandwich-flavored popcorn sales exploded during screening of Grandmothers II : The Moistening.']),
+					'News : all-ice cream sandwich restaurant opening downtown. Dishes such as braised ice cream sandwiches, ice cream sandwich thermidor, and for dessert : crepes.',
+					'News : "sammich", says interviewed orangutan.',
+					'News : ice cream sandwiches could be the key to '+choose(['eternal life','infinite riches','eternal youth','eternal beauty','curing baldness','world peace','solving world hunger','ending all wars world-wide','making contact with extraterrestrial life','mind-reading','better living','better eating','more interesting TV shows','faster-than-light travel','quantum baking','chocolaty and ice cream goodness','gooder thoughtness'])+', say scientists.',
 					'News : flavor text '+choose(['not particularly flavorful','kind of unsavory'])+', study finds.',
 				]),
 				choose([
-					'News : what do golden cookies taste like? Study reveals a flavor "somewhere between spearmint and liquorice".',
-					'News : what do wrath cookies taste like? Study reveals a flavor "somewhere between blood sausage and seawater".',
-					'News : '+Game.bakeryName+'-brand cookies "'+choose(['much less soggy','much tastier','relatively less crappy','marginally less awful','less toxic','possibly more edible','more fashionable','slightly nicer','trendier','arguably healthier','objectively better choice','slightly less terrible','decidedly cookier','a tad cheaper'])+' than competitors", says consumer survey.',
+					'News : what do golden ice cream sandwiches taste like? Study reveals a flavor "somewhere between spearmint and liquorice".',
+					'News : what do wrath ice cream sandwiches taste like? Study reveals a flavor "somewhere between blood sausage and seawater".',
+					'News : '+Game.bakeryName+'-brand ice cream sandwiches "'+choose(['much less soggy','much tastier','relatively less crappy','marginally less awful','less toxic','possibly more edible','more fashionable','slightly nicer','trendier','arguably healthier','objectively better choice','slightly less terrible','decidedly ice cream sandwicher','a tad cheaper'])+' than competitors", says consumer survey.',
 					'News : "'+Game.bakeryName+'" set to be this year\'s most popular baby name.',
-					'News : new popularity survey says '+Game.bakeryName+'\'s the word when it comes to cookies.',
-					'News : major city being renamed '+Game.bakeryName+'ville after world-famous cookie manufacturer.',
-					'News : '+choose(['street','school','nursing home','stadium','new fast food chain','new planet','new disease','flesh-eating virus','deadly bacteria','new species of '+choose(animals),'new law','baby','programming language'])+' to be named after '+Game.bakeryName+', the world-famous cookie manufacturer.',
+					'News : new popularity survey says '+Game.bakeryName+'\'s the word when it comes to ice cream sandwiches.',
+					'News : major city being renamed '+Game.bakeryName+'ville after world-famous ice cream sandwiches manufacturer.',
+					'News : '+choose(['street','school','nursing home','stadium','new fast food chain','new planet','new disease','flesh-eating virus','deadly bacteria','new species of '+choose(animals),'new law','baby','programming language'])+' to be named after '+Game.bakeryName+', the world-famous ice cream sandwiches manufacturer.',
 					'News : don\'t miss tonight\'s biopic on '+Game.bakeryName+'\'s irresistible rise to success!',
 					'News : don\'t miss tonight\'s interview of '+Game.bakeryName+' by '+choose(['Bloprah','Blavid Bletterman','Blimmy Blimmel','Blellen Blegeneres','Blimmy Blallon','Blonan Blo\'Brien','Blay Bleno','Blon Blewart','Bleven Blolbert','Lord Toxikhron of dimension 7-B19',Game.bakeryName+'\'s own evil clone'])+'!',
 					'News : people all over the internet still scratching their heads over nonsensical reference : "Okay, but why an egg?"',
-					'News : viral video "Too Many Cookies" could be "a grim commentary on the impending crisis our world is about to face", says famous economist.',
+					'News : viral video "Too Many Ice Cream Sandwiches" could be "a grim commentary on the impending crisis our world is about to face", says famous economist.',
 					'News : "memes from last year somehow still relevant", deplore experts.',
-					'News : cookie emoji most popular among teenagers, far ahead of "judgemental OK hand sign" and "shifty-looking dark moon", says study.',
+					'News : new ice cream sandwich emoji most popular among teenagers, far ahead of "judgemental OK hand sign" and "shifty-looking dark moon", says study.',
 				]),
 				choose([
 					'News : births of suspiciously bald babies on the rise; reptilian overlords deny involvement.',
-					'News : "at this point, cookies permeate the economy", says economist. "If we start eating anything else, we\'re all dead."',
+					'News : "at this point, ice cream sandwiches permeate the economy", says economist. "If we start eating anything else, we\'re all dead."',
 					'News : pun in headline infuriates town, causes riot. 21 wounded, 5 dead; mayor still missing.',
 					'Nws : ky btwn W and R brokn, plas snd nw typwritr ASAP.',
 					'Neeeeews : "neeeew EEEEEE keeeeey working fineeeeeeeee", reeeports gleeeeeeeeful journalist.',
-					'News : cookies now illegal in some backwards country nobody cares about. Political tensions rising; war soon, hopefully.',
-					'News : irate radio host rambles about pixelated icons. "None of the cookies are aligned! Can\'t anyone else see it? I feel like I\'m taking crazy pills!"',
-					'News : nation cheers as legislators finally outlaw '+choose(['cookie criticism','playing other games than Cookie Clicker','pineapple on pizza','lack of cheerfulness','mosquitoes','broccoli','the human spleen','bad weather','clickbait','dabbing','the internet','memes','millenials'])+'!',
-					'News : '+choose(['local','area'])+' '+choose(['man','woman'])+' goes on journey of introspection, finds cookies : "I honestly don\'t know what I was expecting."',
-					'News : '+choose(['man','woman'])+' wakes up from coma, '+choose(['tries cookie for the first time, dies.','regrets it instantly.','wonders "why everything is cookies now".','babbles incoherently about some supposed "non-cookie food" we used to eat.','cites cookies as main motivator.','asks for cookies.']),
+					'News : ice cream sandwiches now illegal in some backwards country nobody cares about. Political tensions rising; war soon, hopefully.',
+					'News : irate radio host rambles about pixelated icons. "None of the ice cream sandwiches are aligned! Can\'t anyone else see it? I feel like I\'m taking crazy pills!"',
+					'News : nation cheers as legislators finally outlaw '+choose(['ice cream sandwich criticism','playing other games than MiniClicker','pineapple on pizza','lack of cheerfulness','mosquitoes','broccoli','the human spleen','bad weather','clickbait','dabbing','the internet','memes','millenials'])+'!',
+					'News : '+choose(['local','area'])+' '+choose(['man','woman'])+' goes on journey of introspection, finds ice cream sandwiches : "I honestly don\'t know what I was expecting."',
+					'News : '+choose(['man','woman'])+' wakes up from coma, '+choose(['tries ice cream sandwich for the first time, dies.','regrets it instantly.','wonders "why everything is ice cream sandwiches now".','babbles incoherently about some supposed "non-ice cream sandwich food" we used to eat.','cites ice cream sandwiches as main motivator.','asks for ice cream sandwiches.']),
 					'News : pet '+choose(animals)+', dangerous fad or juicy new market?',
 					'News : person typing these wouldn\'t mind someone else breaking the news to THEM, for a change.',
-					'News : "average person bakes '+Beautify(Math.ceil(Game.cookiesEarned/7300000000))+' cookie'+(Math.ceil(Game.cookiesEarned/7300000000)==1?'':'s')+' a year" factoid actually just statistical error; '+Game.bakeryName+', who has produced '+Beautify(Game.cookiesEarned)+' cookies in their lifetime, is an outlier and should not have been counted.'
+					'News : "average person bakes '+Beautify(Math.ceil(Game.cookiesEarned/7300000000))+' ice cream sandwich'+(Math.ceil(Game.cookiesEarned/7300000000)==1?'':'es')+' a year" factoid actually just statistical error; '+Game.bakeryName+', who has produced '+Beautify(Game.cookiesEarned)+' ice cream sandwiches in their lifetime, is an outlier and should not have been counted.'
 					])
 				);
 			}
