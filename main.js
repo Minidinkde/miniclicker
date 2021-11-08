@@ -1674,14 +1674,14 @@ Game.Launch=function()
 		
 		Game.attachTooltip(l('topbarOrteil'),'<div style="padding:8px;width:250px;text-align:center;">Back to Orteil\'s subdomain!<br>Lots of other games in there!</div>','this');
 		Game.attachTooltip(l('topbarDashnet'),'<div style="padding:8px;width:250px;text-align:center;">Back to our homepage!</div>','this');
-		Game.attachTooltip(l('topbarDiscord'),'<div style="padding:8px;width:250px;text-align:center;">Our official discord server.<br>You can share tips and questions about Cookie Clicker and all our other games!</div>','this');
-		Game.attachTooltip(l('topbarPatreon'),'<div style="padding:8px;width:250px;text-align:center;">Support us on Patreon and help us keep updating Cookie Clicker!<br>There\'s neat rewards for patrons too!</div>','this');
-		Game.attachTooltip(l('topbarMerch'),'<div style="padding:8px;width:250px;text-align:center;">Cookie Clicker shirts, hoodies and stickers!</div>','this');
+		Game.attachTooltip(l('topbarDiscord'),'<div style="padding:8px;width:250px;text-align:center;">the official MiniCo server!<br>we\'re a community of friends and gamers, come say hi!</div>','this');
+		Game.attachTooltip(l('topbarPatreon'),'<div style="padding:8px;width:250px;text-align:center;">the official MiniCo instagram!<br>we post updates on things happening in the community!</div>','this');
+		Game.attachTooltip(l('topbarMerch'),'<div style="padding:8px;width:250px;text-align:center;">haha we don\'t have merch...yet :o </div>','this');
 		
 		Game.attachTooltip(l('heralds'),function(){
 			var str='';
 			
-			if (!Game.externalDataLoaded) str+='Heralds couldn\'t be loaded. There may be an issue with our servers, or you are playing the game locally.';
+			if (!Game.externalDataLoaded) str+='MiniClicker is a retextured version of CookieClicker. Note: we take no credit for any of the code, all the code is by Orteil.';
 			else
 			{
 				if (Game.heralds==0) str+='There are no heralds at the moment. Please consider <b style="color:#bc3aff;">donating to our Patreon</b>!';
@@ -1694,7 +1694,7 @@ Game.Launch=function()
 					else str+='To benefit from the herald bonus, you need a special upgrade you do not yet own. You will permanently unlock it later in the game.';
 				}
 			}
-			str+='<div class="line"></div><span style="font-size:90%;opacity:0.6;"><b>Heralds</b> are people who have donated to our highest Patreon tier, and are limited to 100.<br>Each herald gives everyone +1% CpS.<br>Heralds benefit everyone playing the game, regardless of whether you donated.</span>';
+			str+='<div class="line"></div><span style="font-size:90%;opacity:0.6;"><b>Click</b> the sammich to get more sammiches, and you can use those sammiches to buy buildings or upgrades that produce more sammiches, which produce more sammiches to be spent on more buildings or upgrades to produce more sammiches.<br>that\'s literally the game, lol<br>if you have any more questions, contact us on our official discord.</span>';
 			
 			str+='<div style="width:31px;height:39px;background:url(img/heraldFlag.png);position:absolute;top:0px;left:8px;"></div><div style="width:31px;height:39px;background:url(img/heraldFlag.png);position:absolute;top:0px;right:8px;"></div>';
 			
